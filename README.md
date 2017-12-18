@@ -1,9 +1,7 @@
-# Week 8 Research. Topic: Templating
-# w8_research_templating
+# Week 8 Research. Topic: Templating & Serverside rendering
+
  
 ## 1.(a) What is Server Side Rendering
-## What problems do templating languages solve?
-You should use a JavaScript templating engine like Handlebars.js when:
  
 If you make a request on serverrendered sites, the browser gets back the fully rendered HTML and displays it on the screen. If you then decide to visit a different page on the website, your browser will once again make another request for the new information. This will occur each and every time you visit a page that your browser does not have a cached version of.
 
@@ -41,6 +39,10 @@ The key difference is that if you were to click on a link the page to load more 
    + In most cases, requires an external library.
 
 ###### [Read More Here](https://medium.freecodecamp.org/whatexactlyisclientsiderenderingandhowsitdifferentfromserversiderenderingbd5c786b340d)
+
+
+## What problems do templating languages solve?
+You should use a JavaScript templating engine like Handlebars.js when:
 
 
 * You use a JavaScript frontend framework like Backone.js, Ember.js, and the like; most frontend JavaScript frameworks rely on templating engines
