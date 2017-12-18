@@ -51,3 +51,19 @@ You should use a JavaScript templating engine like Handlebars.js when:
 * Your application has much interactivity and it is very responsive  
 * You are developing a singlepage web application with multiple views  
 * You want to easily manage your HTML content; you don’t want your JavaScript code to contain important HTML markup. 
+
+
+## Example of Functionality that Templating languages provide
+```
+{{singleVrible}}
+{{object.key}} 
+{{{function parameter}}}
+{{{function paramOne=value  paramTwo="value"}}}  
+{{{function paramOne=value  paramTwo="paramTwo" moreParams=value}}}
+{{{function.subFunction params}}}
+{{#unless(if not) somthing}}
+{{if(condision) something}}
+{{with(include) somthing in object}} // else can be use in this
+{{log (just console.log) 'string' param 'string'}}
+{{lookup (Loops through an array and checks if not null)}}
+```
