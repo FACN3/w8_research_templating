@@ -41,7 +41,7 @@ The key difference is that if you were to click on a link the page to load more 
 ###### [Read More Here](https://medium.freecodecamp.org/whatexactlyisclientsiderenderingandhowsitdifferentfromserversiderenderingbd5c786b340d)
 
 
-## What problems do templating languages solve?
+## When is it useful to use templating engine/language?
 You should use a JavaScript templating engine like Handlebars.js when:
 
 
